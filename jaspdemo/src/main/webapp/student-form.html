@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>Student Registration Form</title>
+	</head>
+	<body>
+		<form action="student-response.jsp">
+		<div>
+			First Name: <input type="text" name="fname">
+		</div>
+		<div>
+			Last Name: <input type="text" name="lname">
+		</div>
+		<div>
+			Country: <select name="country">
+				<option>Brazil</option>
+				<option>India</option>
+				<option>UAE</option>
+				<option>UK</option>
+				<option>USA</option>
+			</select>
+		</div>
+		<div>
+			Known Programming Languages:<br/>
+			<input type="checkbox" name="progLangs" value="C"> C
+			<input type="checkbox" name="progLangs" value="Java"> Java
+			<input type="checkbox" name="progLangs" value="C++"> C++
+			<input type="checkbox" name="progLangs" value="Python"> Python
+		</div>
+		<div>
+			Favorite Programming Language:<br/>
+			<input type="radio" name="favLang" value="C"> C
+			<input type="radio" name="favLang" value="Java"> Java
+			<input type="radio" name="favLang" value="C++"> C++
+			<input type="radio" name="favLang" value="Python"> Python
+		</div>
+		<button>Submit</button>
+		</form>
+	</body>
+</html>
